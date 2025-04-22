@@ -1,2 +1,1 @@
-# FBioE_484
-Final project for BioE_484
+Final project for bioE 484. We are comparing imaging based dimensionality reduction influenced classificatoin models vs standard nueral network (FCN) comparing which does based given limnited compute power
