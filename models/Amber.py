@@ -181,3 +181,4 @@ class SVMclassifier:
         """
         class_mapping = {0: 'COVID-19', 1: 'normal', 2: 'pneumonia'}  
         return class_mapping.get(cluster_label, 'Unknown')
+    
