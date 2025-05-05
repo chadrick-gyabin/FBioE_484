@@ -7,7 +7,7 @@ class FCNN(nn.Module):
     def __init__(self, input_size, hidden_size1=1048, hidden_size2=512, hidden_size3=256, output_size=3, lr=.001):
         super(FCNN, self).__init__()
 
-        # Input--> 2-hidden layers --> Output
+        # Input--> 3-hidden layers --> Output
         self.fc1 = nn.Linear(input_size, hidden_size1)
         self.fc2 = nn.Linear(hidden_size1, hidden_size2)
         self.fc3 = nn.Linear(hidden_size2, hidden_size3)
